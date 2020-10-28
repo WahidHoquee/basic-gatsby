@@ -1,5 +1,4 @@
-import React from "react"
-
+import React from "react";
 import {
   Intro,
   LoveToDo,
@@ -9,10 +8,12 @@ import {
   Contact,
 } from "../components"
 import { Layout, SEO } from "../components/common"
+import Modals from '../components/common/modal'
 
 const IndexPage = () => (
   <>
     <Layout>
+      <Modals/>
       <SEO title="Suvashini Daliya" />
       <Intro />
       <About />

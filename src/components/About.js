@@ -14,18 +14,15 @@ const About = () => {
         <div className="about">
           <div className="about-details">
             <p>
-              Hello! I'm Zonayed Ahmed, a passionate software engineer. I
-              develop web applications, mobile applications, and desktop
-              applications. My core skill is based on JavaScript and I love to
-              do most of the things using JavaScript. I love to make the web
-              more open to the world. I have graduated with a bachelor's degree
-              in Computer Science Engineering from Chandigarh University at
-              Punjab, India in 2020. I am available for any kind of job
-              opportunity that suits my interests.
+              Hello! I'm Suvashini Daliya, a passionate Graphics Designer & Digital Marketer.
+              My core skill is based on Adobe products and I got a good grab on Microsoft Office products also.
+              I am studying for bachelor's degree in Botany from Titumir College at
+              Mohakhali, Dhaka, Bangladesh since 2015. 
+              I am available for any kind of job opportunity that suits my interests.
             </p>
             <div className="about-action">
               <Button
-                link="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
+                link="https://github.com/WahidHoquee/basic-gatsby/blob/main/src/data/file/MyResume.pdf?raw=true"
                 target="_blank"
                 bgColor="#00cf5d"
                 title="Get Resume"

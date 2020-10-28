@@ -17,7 +17,8 @@
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-helmet": "^5.2.1",
-    "react-icons": "^3.7.0"
+    "react-icons": "^3.7.0",
+    "react-modal": "^3.11.2"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
@@ -36,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zonayedpca/zonayed.me"
+    "url": "https://github.com/WahidHoquee/basic-gatsby/"
   },
   "bugs": {
-    "url": "https://github.com/zonayedpca/zonayed.me/issues"
+    "url": "https://github.com/WahidHoquee/basic-gatsby/"
   }
 }

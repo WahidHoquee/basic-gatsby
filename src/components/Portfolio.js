@@ -41,100 +41,10 @@ const Portfolio = () => {
                 <div className="portfolio-img">
                   <img alt={portfolio.name} src={portfolio.image} />
                 </div>
-                <div className="details">
-                  <h4>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={portfolio.demo}
-                    >
-                      {portfolio.name}
-                    </a>
-                  </h4>
-                  <p>{portfolio.description}</p>
-                  <div className="links">
-                    <ul>
-                      {portfolio.source && (
-                        <li>
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href={portfolio.source}
-                          >
-                            <FaGithub />
-                          </a>
-                        </li>
-                      )}
-                      {portfolio.demo && (
-                        <li>
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href={portfolio.demo}
-                          >
-                            <FaExternalLinkAlt />
-                          </a>
-                        </li>
-                      )}
-                    </ul>
-                  </div>
-                  <ul className="portfolio-tools">
-                    {portfolio.tools.map(tool => (
-                      <li key={tool}>{tool}</li>
-                    ))}
-                  </ul>
-                </div>
               </div>
             ))}
           </div>
           <div className="portfolio-items portfolios-regular">
-            {selectedPortfolios.map((portfolio, index) => (
-              <div key={index} className="portfolio small">
-                <div className="details">
-                  <h4>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={portfolio.demo}
-                    >
-                      {portfolio.name}
-                    </a>
-                  </h4>
-                  <p>{portfolio.description}</p>
-                  <div className="links">
-                    <ul>
-                      {portfolio.source && (
-                        <li>
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href={portfolio.source}
-                          >
-                            <FaGithub />
-                          </a>
-                        </li>
-                      )}
-                      {portfolio.demo && (
-                        <li>
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href={portfolio.demo}
-                          >
-                            <FaExternalLinkAlt />
-                          </a>
-                        </li>
-                      )}
-                    </ul>
-                  </div>
-                  <ul className="portfolio-tools">
-                    {portfolio.tools.map(tool => (
-                      <li key={tool}>{tool}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            ))}
           </div>
           <PortfolioAction />
         </div>
