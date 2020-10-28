@@ -13,7 +13,6 @@ import Modals from '../components/common/modal'
 const IndexPage = () => (
   <>
     <Layout>
-      <Modals/>
       <SEO title="Suvashini Daliya" />
       <Intro />
       <About />
